@@ -1,0 +1,136 @@
+body{
+    height: 100svh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.bigg{
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.left,.right,.big{
+    padding-top: 5%;
+    padding-left: 6%;
+}
+
+.big{
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.left{
+    border-radius: 0 0 0 20px;
+    background-color: hsl(179, 62%, 41%);
+}
+.right{
+    border-radius: 0 0 20px 0;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.titlebig{
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    font-size: 1.8rem;
+}
+
+.subtitle{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.parbig{
+    color: hsl(218, 22%, 67%);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.titleleft{
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    font-size: 1.3rem;
+}
+
+.prmonth,.price{
+    display: inline-block;
+}
+
+.price{
+    color: hsl(204, 43%, 93%);
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.prmonth{
+    color: hsl(196, 75%, 87%);
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    bottom: 5px;
+}
+
+.fa{
+    color: hsl(200, 43%, 92%);
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    bottom: 5px; 
+}
+
+.button{
+    height: 20%;
+    width: 90%;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.prright{
+    width: 66%;
+    color: hsl(196, 75%, 87%);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.why{
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    font-size: 1.3rem;
+}
+
+@media (max-width:1000px){
+    .bigg{
+       
+            width: 75%;
+            height: 70%;
+            margin: auto;
+    }
+    .big{
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+        height: 70%;
+        width: 100%;
+    }
+    
+    .left{
+        border-radius: 0 0 0 0;
+        background-color: hsl(179, 62%, 41%);
+        height: 70%;
+        width: 100%;
+    }
+    .right{
+        border-radius: 0 0 20px 20px;
+        background-color: hsl(179, 62%, 43%);
+        height: 70%;
+        width: 100%;
+    }
+}
+
